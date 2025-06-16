@@ -1,0 +1,5 @@
+readme.txt
+**/readme.txt
+*.doc
+*.docx
+**/*.doc
