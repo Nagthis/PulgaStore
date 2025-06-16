@@ -1,0 +1,1 @@
+Como los ejercicios de boostrap siguen una misma linea decidi hacer los 2  ejercicios en el mismo proyecto. seguramente notara que ejercio practico AE4 parte 1 y 2 son iguales, asique si quiere solo descarga una carpeta.
