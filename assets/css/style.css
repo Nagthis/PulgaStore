@@ -154,6 +154,21 @@ body {
 }
 
 /* Formulario de contacto */
+.mensaje-error {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c2c7;
+    border-radius: 5px;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.mensaje-error i {
+    font-size: 1.2rem;
+}
 .contacto-form {
     background-color: var(--white);
     min-height: 60vh;
