@@ -1,0 +1,94 @@
+/* Tablet - 600px */
+@media (min-width: 600px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+    
+    h2 {
+        font-size: 1.75rem;
+    }
+
+    .info-boxes {
+        flex-direction: row;
+        justify-content: center;
+        gap: 2rem;
+    }
+    
+    .info-box {
+        flex: 1;
+        max-width: 300px;
+    }
+    
+    .form-container {
+        padding: 3rem;
+    }
+}
+
+/* Tablet horizontal / Small laptop - 768px */
+@media (min-width: 768px) {
+    h1 {
+        font-size: 3rem;
+    }
+    
+    h2 {
+        font-size: 2rem;
+    }
+    
+    .producto-card .card-img-top {
+        height: 300px;
+    }
+    
+    .table {
+        font-size: 1rem;
+    }
+}
+
+/* Laptop / Desktop - 1024px */
+@media (min-width: 1024px) {
+    h1 {
+        font-size: 3.5rem;
+    }
+    
+    h2 {
+        font-size: 2.25rem;
+    }
+    
+    .logo-navbar {
+        width: 45px;
+        height: 45px;
+    }
+    
+    .descripcion p {
+        font-size: 1.1rem;
+    }
+    
+    .info-boxes {
+        gap: 3rem;
+    }
+    
+    .info-box {
+        padding: 1.5rem;
+    }
+    
+    .info-box i {
+        font-size: 2rem;
+    }
+    
+    .producto-card {
+        transition: all 0.4s ease;
+    }
+    
+    .producto-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 10px 30px rgba(84, 9, 218, 0.4);
+    }
+    
+    .form-container {
+        padding: 4rem;
+    }
+    
+    .table th,
+    .table td {
+        padding: 1rem;
+    }
+}

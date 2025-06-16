@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PulgaStore - Juguetes para Niños</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Edu+QLD+Hand:wght@400..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Savate:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      defer
+    ></script>
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="stylesheet" href="/assets/css/queries.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+          PulgaStore
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="pedidos.html">Pedidos</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Tabla de pedidos -->
+    <section class="pedidos-tabla py-5">
+      <div class="container">
+        <h1 class="text-center mb-5">Pedidos Realizados</h1>
+        <div class="row">
+          <div class="col-12">
+            <div class="table-responsive">
+              <table class="table table-striped table-hover">
+                <thead>
+                  <tr>
+                    <th>ID</th>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Producto</th>
+                    <th>Cantidad</th>
+                    <th>Email</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>001</td>
+                    <td>María</td>
+                    <td>González</td>
+                    <td>Bloques de Construcción</td>
+                    <td>2</td>
+                    <td>maria.gonzalez@email.com</td>
+                  </tr>
+                  <tr>
+                    <td>002</td>
+                    <td>Carlos</td>
+                    <td>Rodríguez</td>
+                    <td>Oso de Peluche Gigante</td>
+                    <td>1</td>
+                    <td>carlos.rodriguez@email.com</td>
+                  </tr>
+                  <tr>
+                    <td>003</td>
+                    <td>Ana</td>
+                    <td>Martínez</td>
+                    <td>Tren de Madera</td>
+                    <td>1</td>
+                    <td>ana.martinez@email.com</td>
+                  </tr>
+                  <tr>
+                    <td>004</td>
+                    <td>Luis</td>
+                    <td>Pérez</td>
+                    <td>Puzzle Educativo ABC</td>
+                    <td>3</td>
+                    <td>luis.perez@email.com</td>
+                  </tr>
+                  <tr>
+                    <td>005</td>
+                    <td>Carmen</td>
+                    <td>López</td>
+                    <td>Dinosaurio T-Rex</td>
+                    <td>2</td>
+                    <td>carmen.lopez@email.com</td>
+                  </tr>
+                  <tr>
+                    <td>006</td>
+                    <td>Diego</td>
+                    <td>Silva</td>
+                    <td>Muñeca Interactiva</td>
+                    <td>1</td>
+                    <td>diego.silva@email.com</td>
+                  </tr>
+                  <tr>
+                    <td>007</td>
+                    <td>Isabel</td>
+                    <td>Torres</td>
+                    <td>Bloques de Construcción</td>
+                    <td>5</td>
+                    <td>isabel.torres@email.com</td>
+                  </tr>
+                  <tr>
+                    <td>008</td>
+                    <td>Roberto</td>
+                    <td>Vargas</td>
+                    <td>Puzzle Educativo ABC</td>
+                    <td>2</td>
+                    <td>roberto.vargas@email.com</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer py-4 mt-5">
+      <div class="container text-center">
+        <p class="mb-2">
+          &copy; 2024 PulgaStore - Todos los derechos reservados
+        </p>
+        <p class="mb-0">
+          <a href="#">Términos</a> | <a href="#">Privacidad</a> |
+          <a href="#">Ayuda</a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

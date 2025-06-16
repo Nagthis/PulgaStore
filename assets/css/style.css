@@ -1,0 +1,233 @@
+/* Variables de color */
+:root {
+    --primary-dark: #5409DA;
+    --primary-medium: #4E71FF;
+    --primary-light: #8DD8FF;
+    --primary-lightest: #BBFBFF;
+    --white: #ffffff;
+    --gray-light: #f8f9fa;
+    --gray-dark: #333333;
+}
+
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto Mono", monospace;
+    background-color: var(--primary-lightest);
+    color: var(--gray-dark);
+    line-height: 1.6;
+}
+
+
+/* Navbar */
+.navbar {
+    background-color: var(--primary-dark);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.logo-navbar {
+  height: 40px;
+  width: auto;
+  border-radius: 50%;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: var(--white) !important;
+}
+
+
+.navbar-nav .nav-link {
+    color: var(--primary-lightest) !important;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+    color: var(--white) !important;
+}
+
+
+/* Sección descripción */
+.descripcion {
+    background-color: var(--white);
+    padding-top: 2rem;
+}
+
+.info-boxes {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.info-box {
+    background-color: var(--primary-lightest);
+    padding: 1rem;
+    border-radius: 8px;
+    border: 2px solid var(--primary-light);
+}
+
+.info-box i {
+    font-size: 1.5rem;
+    color: var(--primary-dark);
+    margin-bottom: 0.5rem;
+}
+
+/* Sección productos */
+.productos {
+    background-color: var(--gray-light);
+}
+
+.producto-card {
+    border: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.producto-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 20px rgba(84, 9, 218, 0.3);
+}
+
+.producto-card .card-img-top {
+    height: 200px;
+    width: 100%;
+    object-fit: contain; 
+    padding: 1rem; 
+    background-color: white;
+}
+
+
+.producto-card:hover .card-img-top {
+    transform: scale(1.05);
+}
+
+.producto-card .card-body {
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-grow: 1;
+}
+
+.producto-card .card-title {
+    color: var(--primary-dark);
+    font-weight: bold;
+}
+
+.precio {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: var(--primary-medium);
+    margin-bottom: 0;
+}
+
+/* Formulario de contacto */
+.contacto-form {
+    background-color: var(--white);
+    min-height: 60vh;
+    padding-top: 3rem;
+}
+
+.form-container {
+    background-color: var(--gray-light);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.form-label {
+    color: var(--primary-dark);
+    font-weight: 500;
+}
+
+.form-control {
+    border: 2px solid var(--primary-light);
+    border-radius: 5px;
+}
+
+.form-control:focus {
+    border-color: var(--primary-medium);
+    box-shadow: 0 0 0 0.2rem rgba(78, 113, 255, 0.25);
+}
+
+.btn-primary {
+    background-color: var(--primary-dark);
+    border: none;
+    padding: 0.75rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-medium);
+}
+
+/* Tabla de pedidos */
+.pedidos-tabla {
+    background-color: var(--white);
+    min-height: 60vh;
+    padding-top: 3rem;
+}
+
+.table {
+    background-color: var(--white);
+}
+
+.table thead {
+    background-color: var(--primary-dark);
+    color: var(--white);
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: var(--primary-lightest);
+}
+
+.table-hover tbody tr:hover {
+    background-color: var(--primary-light);
+}
+
+/* Footer */
+.footer {
+    background-color: var(--primary-dark);
+    color: var(--white);
+}
+
+.footer a {
+    color: var(--primary-lightest);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: var(--white);
+}
+
+/* Estilos responsive base (mobile-first) */
+h1 {
+    font-size: 2rem;
+    color: var(--primary-dark);
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: var(--primary-dark);
+}
+
+.container {
+    padding: 0 1rem;
+}
+
+.info-boxes {
+    text-align: center;
+}
