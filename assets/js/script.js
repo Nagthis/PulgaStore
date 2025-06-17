@@ -85,3 +85,22 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 });
+
+
+// jquery acordion
+
+$(function() {
+    $("#accordion").accordion();
+    $("#accordion").accordion({
+        heightStyle: "content",
+        active: false,
+        collapsible: true,
+    });
+$("#accordion .ui-accordion-header").css({
+  "font-family": "monospace",
+  "font-size": "1.2em",
+  "background-color": "#5409DA",
+  "border": "1px solid #ccc",
+  "border-radius": "5px"
+});
+  });
